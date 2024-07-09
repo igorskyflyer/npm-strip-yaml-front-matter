@@ -1,7 +1,7 @@
 {
-  "name": "@igor.dvlpr/$pkg",
+  "name": "@igor.dvlpr/strip-yaml-front-matter",
   "version": "1.0.0",
-  "description": "$desc",
+  "description": "🦓 Strips YAML front matter from a String or a file. 👾",
   "sideEffects": false,
   "engines": {
     "node": ">=20.0"
@@ -16,17 +16,27 @@
     "debug": "vitest",
     "pub": "npm test && npm run build && npm publish --access public"
   },
-  "keywords": [$tags, "igorskyflyer", "igor.dvlpr"],
+  "keywords": [
+    "strip",
+    "yaml",
+    "frontmatter",
+    "front-matter",
+    "remove",
+    "regex",
+    "regexp",
+    "igorskyflyer",
+    "igor.dvlpr"
+  ],
   "license": "MIT",
   "author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
   "funding": "https://ko-fi.com/igorskyflyer",
-  "homepage": "https://github.com/igorskyflyer/$repo",
+  "homepage": "https://github.com/igorskyflyer/npm-strip-yaml-front-matter",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/igorskyflyer/$repo.git"
+    "url": "git+https://github.com/igorskyflyer/npm-strip-yaml-front-matter.git"
   },
   "bugs": {
-    "url": "https://github.com/igorskyflyer/$repo/issues"
+    "url": "https://github.com/igorskyflyer/npm-strip-yaml-front-matter/issues"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
