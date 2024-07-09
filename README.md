@@ -1,9 +1,9 @@
-# $project
+# \-\-\- Strip YAML front matter \-\-\-
 
 <br>
 
 <p align="center">
-	$desc
+	🦓 Strips YAML front matter from a String or a file. 👾
 </p>
 
 <br>
@@ -37,7 +37,7 @@
 Install it by executing:
 
 ```shell
-npm i "@igor.dvlpr/$pkg"
+npm i "@igor.dvlpr/strip-yaml-front-matter"
 ```
 
 <br>
@@ -48,32 +48,41 @@ npm i "@igor.dvlpr/$pkg"
 
 ## 🪪 License
 
-Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/$repo/blob/main/LICENSE).
+Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-strip-yaml-front-matter/blob/main/LICENSE).
 
 ---
 
 ## 🧬 Related
 
-[]()
+[@igor.dvlpr/is-rootdir](https://www.npmjs.com/package/@igor.dvlpr/is-rootdir)
 
-> __
+> _🔼 Provides a way to check if the given path is the root drive/directory. ⛔_
 
-[]()
+<br>
 
-> __
+[@igor.dvlpr/recursive-readdir](https://www.npmjs.com/package/@igor.dvlpr/recursive-readdir)
 
-[]()
+> _📖 Provides recursive readdir() and readdirSync() functions. 📁_
 
-> __
+<br>
 
-[]()
+[@igor.dvlpr/extendable-string](https://www.npmjs.com/package/@igor.dvlpr/extendable-string)
 
-> __
+> _🦀 ExtendableString allows you to create strings on steroids that have custom transformations applied to them, unlike common, plain strings. 🪀_
 
-[]()
+<br>
 
-> __
+[@igor.dvlpr/regkeys](https://www.npmjs.com/package/@igor.dvlpr/regkeys)
 
+> _📚 An npm package for fetching Windows registry keys. 🗝_
+
+<br>
+
+[@igor.dvlpr/zep](https://www.npmjs.com/package/@igor.dvlpr/zep)
+
+> _🧠 Zep is a zero-dependency, efficient debounce module. ⏰_
+
+<br>
 <br>
 
 >
