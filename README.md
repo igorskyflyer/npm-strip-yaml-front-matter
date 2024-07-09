@@ -1,4 +1,4 @@
-# \-\-\- Strip YAML front matter \-\-\-
+<h1 align="center">--- Strip YAML front matter ---</h1>
 
 <br>
 
