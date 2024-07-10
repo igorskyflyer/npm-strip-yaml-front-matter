@@ -38,9 +38,7 @@ YAML front matter is a special text/code block that is added to the top of a fil
 
 <br>
 
-Here's an example Markdown file.
-
-<br>
+Here's an example Markdown file:
 
 `example.md`
 ```yaml
