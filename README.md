@@ -75,6 +75,7 @@ Strips YAML front matter from a String.
 Returns the original String without the YAML front matter.
 
 <br>
+<br>
 
 ```ts
 function stripFile(path: string): string
