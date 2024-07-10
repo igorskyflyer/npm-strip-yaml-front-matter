@@ -85,9 +85,13 @@ Strips YAML front matter from a file.
 
 - `path`: `string`, the path to the file.  
 
+<br>
+
 > [!WARNING]
 > Will throw an error if the file path is not valid or the file cannot be read.  
  
+<br>
+
 Returns the original file contents as a String without the YAML front matter.
 
 ---
