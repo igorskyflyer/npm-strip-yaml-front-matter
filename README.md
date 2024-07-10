@@ -34,7 +34,7 @@
 
 ## 🤔 Introduction
 
-YAML front matter is a special text/code block that is added to the top of a file, usually Markdown (`.md`), sometimes even HTML (`.html`) files and provides meta data about the given file or provide means to do additional processing of the file. It is mostly used by static site generators (SSG) or content management systems (CMS).
+YAML front matter is a special text/code block placed between two triple-dashed lines that is added to the top of a file, usually Markdown (`.md`), sometimes even HTML (`.html`) files and provides meta data about the given file or provide means to do additional processing of the file. It is mostly used by static site generators (SSG) or content management systems (CMS).
 
 <br>
 
