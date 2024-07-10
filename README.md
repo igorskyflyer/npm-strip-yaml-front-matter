@@ -32,6 +32,28 @@
 
 <br>
 
+## 🤔 Introduction
+
+YAML front matter is a special text/code block that is added to the top of a file, usually Markdown (`.md`), sometimes even HTML (`.html`) files and provides meta data about the given file or provide means to do additional processing of the file. It is mostly used by static site generators (SSG) or content management systems (CMS).
+
+<br>
+
+Here's an example Markdown file.
+
+<br>
+
+`example.md`
+```yaml
+---
+ author: John Doe
+ publishDate: 27 Aug, 2024
+---
+
+Some Markdown content.
+```
+
+<br>
+
 ## 🕵🏼 Usage
 
 Install it by executing:
@@ -43,6 +65,31 @@ npm i "@igor.dvlpr/strip-yaml-front-matter"
 <br>
 
 ## 🤹🏼 API
+
+```ts
+function stripString(content: string): string
+```
+
+Strips YAML front matter from a String.
+
+- `content`: `string`, the string whose YAML front matter to strip.  
+
+Returns the original String without the YAML front matter.
+
+<br>
+
+```ts
+function stripFile(path: string): string
+```
+
+Strips YAML front matter from a file.
+
+- `path`: `string`, the path to the file.  
+
+> [!WARNING]
+> Will throw an error if the file path is not valid or the file cannot be read.  
+ 
+Returns the original file contents as a String without the YAML front matter.
 
 ---
 
