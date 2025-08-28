@@ -7,7 +7,7 @@ Thank you for considering a contribution to {{project}}! Whether you're fixing b
 ## 💡 Getting Started
 
 - Ensure your contribution aligns with the project's scope and goals.
-- If you're unsure, feel free to open an [`issue`](https://github.com/igorskyflyer/{{repo}}/issues) or discussion to explore the idea.
+- If you're unsure, feel free to open an [`issue`](https://github.com/igorskyflyer/npm-strip-yaml-front-matter/issues) or discussion to explore the idea.
 - For substantial changes, it's best to open a draft pull request early for visibility and feedback.
 
 ---
@@ -53,7 +53,7 @@ Contributions to documentation, examples, and config files are always appreciate
 ## 💖 Thank You!
 
 Your contribution helps maintain and improve {{project}} — thank you for helping make it better!  
-Check out [`SUPPORT.md`](https://github.com/igorskyflyer/{{repo}}/blob/main/SUPPORT.md) if you need help or want to sponsor its development.
+Check out [`SUPPORT.md`](https://github.com/igorskyflyer/npm-strip-yaml-front-matter/blob/main/SUPPORT.md) if you need help or want to sponsor its development.
 
 <br>
 
