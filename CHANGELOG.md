@@ -4,6 +4,12 @@
 
 <br>
 
+## v1.1.1 (*28-Aug-2025*)
+
+- **✅ fix**: fix entrypoints
+
+<br>
+
 ## v1.1.0 (*28-Aug-2025*)
 
 - **✅ fix**: throw full-fledged `Errors` instead of primitive error strings
