@@ -1,11 +1,16 @@
-## 📒 Changelog
+# 📒 Changelog
 
-### of [@igor.dvlpr/strip-yaml-front-matter](https://github.com/igorskyflyer/npm-strip-yaml-front-matter)
+### of [@igorskyflyer/strip-yaml-front-matter](https://github.com/igorskyflyer/npm-strip-yaml-front-matter)
 
 <br>
 
-## v1.0.0
+## v1.1.0 (*28-Aug-2025*)
 
-<p align="right"><em>10-Jul-2024</em></p>
+- **💻 dev**: upgrade Node to >= v22
+- **💻 dev**: upgrade dependencies
+
+<br>
+
+## v1.0.0 (*10-Jul-2024*)
 
 - **🚀 launch**: initial release 🎉
