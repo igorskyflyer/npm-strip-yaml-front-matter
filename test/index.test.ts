@@ -1,7 +1,7 @@
 // Author: Igor Dimitrijević (@igorskyflyer)
 
 import { assert, describe, suite, test } from 'vitest'
-import { stripFile, stripString } from '../src/index.mjs'
+import { stripFile, stripString } from '../src/index.js'
 
 // @cspell:disable
 
@@ -25,12 +25,11 @@ const yamlResult: string =
 describe('🧪 --- Strip YAML front matter --- tests 🧪', () => {
   suite('stripString()', () => {
     test('#1 should return an empty String', () => {
-      // @ts-ignore
+      // @ts-expect-error
       assert.isEmpty(stripString())
     }) // #1
 
     test('#2 should return an empty String', () => {
-      // @ts-ignore
       assert.isEmpty(stripString(''))
     }) // #2
 
@@ -50,14 +49,13 @@ describe('🧪 --- Strip YAML front matter --- tests 🧪', () => {
   suite('stripFile()', () => {
     test('#6 should throw', () => {
       assert.throws(() => {
-        // @ts-ignore
+        // @ts-expect-error
         stripFile()
       })
     }) // #6
 
     test('#7 should throw', () => {
       assert.throws(() => {
-        // @ts-ignore
         stripFile('djodjajdoa')
       })
     }) // #7
