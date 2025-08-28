@@ -9,9 +9,9 @@ const yamlFrontMatterRegex: RegExp = /^---\s*[\s\S]*?\n---\s*/
  *
  * Example YAML front matter:
  *
- * \---  
- * author: John Doe  
- * publishDate: 27 Aug, 2024  
+ * \---
+ * author: John Doe
+ * publishDate: 27 Aug, 2024
  * \---
  *
  * @param content The string whose YAML front matter to strip.
@@ -33,7 +33,7 @@ export function stripString(content: string): string {
  */
 export function stripFile(path: string): string {
   if (typeof path !== 'string') {
-    throw 'No valid path specified.'
+    throw new Error('No valid path specified.')
   }
 
   try {
@@ -41,6 +41,6 @@ export function stripFile(path: string): string {
 
     return stripString(content)
   } catch {
-    throw "Couldn't read the specified file."
+    throw new Error("Couldn't read the specified file.")
   }
 }
